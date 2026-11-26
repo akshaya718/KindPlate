@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KindPlate - Save Food, Share Kindness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="kp-header">
+        <h2>🥗 KindPlate</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#how">How It Works</a>
+            <a href="#contact">Contact</a>
+            <a href="ai-assistant.html">AI Assistant</a>
+            <button onclick="showLogin()">Get Started</button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero kp-hero" id="home">
+
+        <div class="hero-content kp-hero-content">
+
+            <span class="hero-tag">🌱 TOGETHER FOR A BETTER TOMORROW</span>
+
+            <h1>
+                Save Food.<br>
+                <span>Share Kindness.</span>
+            </h1>
+
+            <p>
+                Every meal matters. Connect surplus food with people
+                and communities who need it through smart food rescue.
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="showLogin()">Start Donating →</button>
+                <a href="#how" class="secondary-button">Explore How It Works</a>
+            </div>
+
+            <div class="hero-note">
+                💚 Small actions. Meaningful impact.
+            </div>
+
+        </div>
+
+        <div class="kp-hero-visual">
+
+            <div class="hero-image-card">
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+                    alt="Fresh healthy food in a bowl"
+                >
+
+                <div class="image-caption">
+                    <span>🥗</span>
+                    <div>
+                        <strong>Good Food, Shared</strong>
+                        <small>Reducing food waste together</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-card">
+                <span>💚</span>
+                <div>
+                    <strong>Share More</strong>
+                    <small>Waste Less</small>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="about kp-about" id="about">
+
+        <span class="section-tag">ABOUT KINDPLATE</span>
+
+        <h2>Good Food Deserves a Second Chance.</h2>
+
+        <p>
+            Every day, good food goes unused while many communities need support.
+            KindPlate brings donors and receivers together to make food sharing
+            easier, smarter and more meaningful.
+        </p>
+
+    </section>
+
+    <!-- HIGHLIGHT CARDS -->
+    <section class="impact-section">
+
+        <div class="impact-card">
+            <div class="impact-icon">🍱</div>
+            <h3>Reduce Food Waste</h3>
+            <p>Give surplus food a useful purpose instead of letting it go to waste.</p>
+        </div>
+
+        <div class="impact-card">
+            <div class="impact-icon">🤝</div>
+            <h3>Connect Communities</h3>
+            <p>Bring food donors and receivers together through one platform.</p>
+        </div>
+
+        <div class="impact-card">
+            <div class="impact-icon">🌍</div>
+            <h3>Support Sustainability</h3>
+            <p>Encourage responsible food sharing and a more sustainable future.</p>
+        </div>
+
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how kp-how" id="how">
+
+        <span class="section-tag">SIMPLE PROCESS</span>
+
+        <h2>How KindPlate Works</h2>
+
+        <p class="how-description">
+            Three simple steps can help make a meaningful difference.
+        </p>
+
+        <div class="cards kp-cards">
+
+            <div class="card kp-card">
+                <div class="step-number">01</div>
+                <div class="step-icon">🍱</div>
+                <h3>Donate Food</h3>
+                <p>
+                    Donors list their available surplus food on KindPlate.
+                </p>
+            </div>
+
+            <div class="card kp-card">
+                <div class="step-number">02</div>
+                <div class="step-icon">🔎</div>
+                <h3>Find Food</h3>
+                <p>
+                    Receivers explore available donations and submit requests.
+                </p>
+            </div>
+
+            <div class="card kp-card">
+                <div class="step-number">03</div>
+                <div class="step-icon">💚</div>
+                <h3>Share Kindness</h3>
+                <p>
+                    Donors and receivers coordinate to complete food sharing.
+                </p>
+            </div>
+
+        </div>
+
+        <button class="bottom-start-button" onclick="showLogin()">
+            Join KindPlate Today →
+        </button>
+
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta-section">
+
+        <div>
+            <span>💚 MAKE EVERY MEAL MATTER</span>
+            <h2>Be Part of the Food Rescue Movement.</h2>
+            <p>Start sharing food and spreading kindness with KindPlate.</p>
+        </div>
+
+        <button onclick="showLogin()">Get Started</button>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="kp-footer">
+
+        <h2>🥗 KindPlate</h2>
+
+        <p>Save Food. Share Kindness.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#how">How It Works</a>
+            <a href="ai-assistant.html">AI Assistant</a>
+        </div>
+
+        <p class="copyright">
+            KindPlate © 2026 | Building a world with less food waste.
+        </p>
+
+    </footer>
+
+    <!-- EXISTING JAVASCRIPT AND FIREBASE -->
+    <script src="script.js"></script>
+    <script type="module" src="firebase.js"></script>
+
+</body>
+</html>

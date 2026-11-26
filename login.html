@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join KindPlate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-page">
+
+<main class="auth-layout">
+
+    <section class="auth-visual">
+
+        <div class="brand">
+            <span class="brand-symbol">K.</span>
+            <span>kindplate</span>
+        </div>
+
+        <div class="visual-content">
+            <p class="eyebrow">A SMALL ACT. A BIG IMPACT.</p>
+
+            <h1>
+                Good food<br>
+                deserves a<br>
+                <span>second story.</span>
+            </h1>
+
+            <p class="visual-description">
+                Connect extra food with people who need it.
+                Turn everyday surplus into meaningful change.
+            </p>
+
+            <div class="food-note">
+                <span class="note-icon">✳</span>
+                <div>
+                    <strong>Less waste. More care.</strong>
+                    <p>Every shared meal matters.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="visual-footer">
+            <span>FOOD IS TOO GOOD TO WASTE.</span>
+            <span>01 — KINDPLATE</span>
+        </div>
+
+        <div class="decor-circle"></div>
+
+    </section>
+
+
+    <section class="auth-form-section">
+
+        <div class="form-top">
+            <span>YOUR JOURNEY STARTS HERE</span>
+            <a href="index.html">← Back to home</a>
+        </div>
+
+        <div class="form-content">
+
+            <div class="form-heading">
+                <span class="form-label" id="formLabel">
+                    CREATE YOUR ACCOUNT
+                </span>
+
+                <h2 id="formTitle">
+                    Welcome to<br>something good.
+                </h2>
+
+                <p id="formDescription">
+                    Join the KindPlate community.
+                    Choose your role and get started.
+                </p>
+            </div>
+
+            <!-- LOGIN / REGISTER SWITCH -->
+            <div class="auth-switch">
+                <button type="button" id="registerTab" class="active">
+                    Register
+                </button>
+
+                <button type="button" id="loginTab">
+                    Sign In
+                </button>
+            </div>
+
+            <form id="loginForm">
+
+                <div class="input-group" id="nameGroup">
+                    <label for="name">Your name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        minlength="6"
+                        required
+                    >
+                </div>
+
+                <div class="input-group" id="roleGroup">
+                    <label for="role">I want to join as</label>
+
+                    <select id="role" required>
+                        <option value="">Choose your role</option>
+                        <option value="donor">Food Donor</option>
+                        <option value="receiver">Food Receiver</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="join-button" id="submitButton">
+                    Create my account <span>→</span>
+                </button>
+
+            </form>
+
+            <p class="form-bottom" id="formBottom">
+                By joining KindPlate, you become part of a
+                community working towards less food waste.
+            </p>
+
+        </div>
+
+        <div class="right-footer">
+            <span>MADE FOR A MORE THOUGHTFUL WORLD</span>
+            <span>© KINDPLATE 2026</span>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+<script type="module" src="login-auth.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Food Assistant - KindPlate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🥗 KindPlate</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="donor.html">Donor</a>
+            <a href="receiver.html">Receiver</a>
+        </nav>
+    </header>
+
+    <section class="login-container ai-container">
+
+        <h1>🤖 AI Food Assistant</h1>
+
+        <p>
+            Your smart assistant for food donation and food rescue.
+        </p>
+
+        <div id="chatBox" class="chat-box">
+            <div class="bot-message">
+                Hello! Welcome to KindPlate.
+                How can I help you today?
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input
+                type="text"
+                id="userMessage"
+                placeholder="Ask something about food donation..."
+            >
+
+            <button id="sendButton">Send</button>
+        </div>
+
+        <p class="ai-note">
+            AI suggestions are informational.
+            Please verify food quality and safety with a responsible person.
+        </p>
+
+    </section>
+
+    <script type="module" src="ai-assistant.js"></script>
+
+</body>
+</html>

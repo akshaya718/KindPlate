@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiver Dashboard - KindPlate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🥗 KindPlate</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+   <section class="login-container receiver-container">
+
+        <h1>Receiver Dashboard</h1>
+        <p>Explore available food donations.</p>
+
+        <!-- Available Food Donations -->
+        <h2>Available Food Donations</h2>
+
+        <div id="donationList">
+            Loading donations...
+        </div>
+
+        <hr>
+
+        <!-- My Food Requests -->
+        <h2>My Food Requests</h2>
+        <p>Track the status of your food requests.</p>
+
+        <div id="myRequestList">
+            Loading your requests...
+        </div>
+
+    </section>
+
+    <script type="module" src="receiver-firestore.js"></script>
+
+</body>
+</html>
